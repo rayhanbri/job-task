@@ -9,7 +9,7 @@ export default function Navbar() {
         </>
     )
   return (
-    <div className="navbar bg shadow-sm">
+    <div className="navbar bg ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn button text-white rounded-sm">Longin</a>
+    <a className="btn button text-white rounded-sm hover:hover-color hover:bg-amber-300">Longin</a>
   </div>
 </div>
   )

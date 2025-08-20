@@ -1,0 +1,10 @@
+import React from 'react'
+
+
+export default function Hero() {
+  return (
+    <div className='min-h-screen sm:my-5'>
+        <img className='mx-auto rounded-sm shadow-lg ' src="/slider.png" alt="" />
+    </div>
+  )
+}
