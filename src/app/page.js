@@ -3,11 +3,13 @@ import Navbar from "./components/Navbar.jsx"
 import "./globals.css"
 import Hero from "./components/Hero.jsx";
 import Footer from "./components/Footer.jsx";
+import Highlights from "./components/Highlights.jsx";
 
 export default function Home() {
   return (
    <div>
     <Hero></Hero>
+    <Highlights></Highlights>
    </div>
   );
 }
