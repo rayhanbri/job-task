@@ -1,11 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 
 
 export default function Navbar() {
     const links = (
         <>
-            <li className='mx-3 '>Home</li>
-            <li>Porducts</li>
+            <Link href='/' className='mx-3'>Home</Link>
+            <Link href='/products'>Porducts</Link>
         </>
     )
   return (
@@ -33,7 +34,7 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn button text-white rounded-sm  ">Longin</a>
+    <Link href='/login' className="btn button text-white rounded-sm  ">Longin</Link>
   </div>
 </div>
   )
