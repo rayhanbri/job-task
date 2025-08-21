@@ -34,7 +34,7 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href='/login' className="btn button text-white rounded-sm  ">Longin</Link>
+    <Link href='/login' className="btn btn-primary  text-white rounded-sm  ">Longin</Link>
   </div>
 </div>
   )

@@ -6,8 +6,11 @@
   background-color: #B2B0E8;
 }
 
-.button{
+.btn-primary{
   background-color: #1A2A80;
+}
+.btn-secondary{
+  background-color: #3B38A0;
 }
 
 .hover-color{
